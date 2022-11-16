@@ -39,8 +39,8 @@ public class Lab06vst extends Applet {
         }
             for (int b = 0; b <= 100; b++) {
 
-                int b1 = rand.nextInt(381) + 400;
-                int c1 = rand.nextInt(281) + 10;
+                int b1 = rand.nextInt(341) + 400;
+                int c1 = rand.nextInt(241) + 10;
 
 
                 int red = rand.nextInt(255);
