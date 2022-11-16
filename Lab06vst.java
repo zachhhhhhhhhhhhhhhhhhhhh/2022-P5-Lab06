@@ -68,6 +68,12 @@ public class Lab06vst extends Applet {
 
 
 
+                Polygon cube = new Polygon();
+                cube.addPoint(750, 450);
+                cube.addPoint(525, 825);
+                cube.addPoint(750, 450);
+                g.fillPolygon(cube);
+
 
 
     }
