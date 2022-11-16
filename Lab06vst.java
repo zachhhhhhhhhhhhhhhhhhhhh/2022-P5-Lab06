@@ -49,16 +49,27 @@ public class Lab06vst extends Applet {
 
                 g.setColor(new Color(red,green,blue));
                 g.fillRect(b1, c1, 50, 50);
-
+            }
                 // Draw Random Circles
+                for (int c = 0; c <=100; c++) {
+                    int circle = rand.nextInt(200);
+                    int x = rand.nextInt(391-circle) + 10;
+                    int y = rand.nextInt(291-circle) + 300;
 
 
+                    int red = rand.nextInt(255);
+                    int green = rand.nextInt(255);
+                    int blue = rand.nextInt(255);
+
+                    g.setColor(new Color(red,green,blue));
+                    g.drawOval(x, y, circle, circle);
+                }
                 // Draw 3-D Box
 
 
 
 
-        }
+
     }
 }
 
